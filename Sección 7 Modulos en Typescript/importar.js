@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var exportar_1 = require("./exportar");
+console.log(exportar_1.nombre);
+var persona = new exportar_1.Persona("Ivan");
+console.log(persona.nombre);
+var general = { nombre: "Tomas" };
+console.log(general.nombre);
+var generalDos = { nombre: "Tomas" };
+console.log(generalDos.nombre);
+exportar_1.mostrar();

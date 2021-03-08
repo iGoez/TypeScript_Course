@@ -1,0 +1,10 @@
+Que son los genericos
+
+Typescript esta diseñado para ser un lenguaje de tipado.
+En el echo de poder tener un tipo de dato any es basicamente
+contraproducente eb el lenguaje y genera ciertos errores.
+Para ello nacen los datos o el tipado generico.
+
+Nunca utilizar el tipo de dato any
+
+<T> es un tipo generico
